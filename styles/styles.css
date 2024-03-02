@@ -1,0 +1,18 @@
+body{
+    font-size: 32px;
+    background-color: rgb(62, 61, 61);
+}
+
+main{
+    background-color: beige;
+}
+footer{
+    background-color: antiquewhite;
+}
+img{
+    border: 5px blue solid;
+}
+h1{
+    font-size: xx-large;
+    background-color: blueviolet;
+}
