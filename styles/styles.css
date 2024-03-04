@@ -1,13 +1,32 @@
 body{
     font-size: 32px;
-    background-color: rgb(62, 61, 61);
+    background-color: rgb(251, 247, 247);
 }
 
 main{
-    background-color: beige;
+    background-color: rgb(99, 99, 97);
+    max-width: 840px;
+}
+
+main img{
+    width:200px;
+    height:auto;
+}
+
+aside{
+    width:300px;
+    margin:5px;
+    padding:5px;
+    border:black solid 5px;
+    background-color:red;
+    color:rgb(15, 15, 15);
+    text-align: center;
 }
 footer{
     background-color: antiquewhite;
+    margin-top: 5px;
+    border-top: 1px solid black;
+    text-align: center;
 }
 img{
     border: 5px blue solid;
@@ -15,4 +34,8 @@ img{
 h1{
     font-size: xx-large;
     background-color: blueviolet;
+}
+
+p{
+    padding:0;
 }
