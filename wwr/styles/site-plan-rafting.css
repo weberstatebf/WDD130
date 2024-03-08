@@ -1,0 +1,92 @@
+body{
+        font-family: var(--paragraph-font);
+        max-width: 960px;
+        padding:20px;
+}
+:root{
+    --primary-color: #272AD2;
+    --secondary-color: #414288;
+    --accent-color1:#682D63;
+    --accent-color2: #5FB49C;
+
+    --headings-font:"oswald",sans-serif;
+    --paragraph-font:"lexend",sans-serif;
+
+    --nav-background-color: #414288;
+    --nav-link-color:var(--accent-color2);
+    --nav-hover-link-color:var(--accent-color2);
+    --nav-hover-background-color:var(--accent-color1);
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family:var(--heading-font);
+    color:var(--primary-color);
+}
+header{
+    padding:20px;
+    background-color:var(--ascent1-color);
+}
+
+p{
+    padding:25px;
+}
+
+nav{
+     background-color: var(--nav-background-color);
+     font-size: 1.2emm;
+     display: flex;
+}
+
+nav a{
+        display: block;
+        color: var(--nav-link-color);
+        text-decoration: none;
+        padding:1em;
+}
+
+nav a:link, nav a:visited{
+    color:var(--nav-link-color);
+
+
+}
+
+nav a:hover{
+           color: var(--nav-hover-link-color);
+           background-color: var(--nav-hover-background-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -2,6 +2,15 @@ body{
     font-size: 32px;
     background-color: rgb(251, 247, 247);
 }
+nav{
+    background-color: steelblue;
+    padding:10px;
+}
+nav a{
+    color:white;
+    display: block;
+    padding: 20px;
+}
 
 main{
     background-color: rgb(99, 99, 97);
@@ -33,13 +42,20 @@ footer{
     text-align: center;
 }
 img{
-    border: 5px blue solid;
+    width:150px;
+    height:auto;
+    border:1px solid steelblue;
+    padding:2px;
+    box-shadow: 0 0 30px gray;
+    
 }
 h1{
     font-size: xx-large;
     background-color: blueviolet;
+    color:rgb(14, 15, 15);
 }
 
 p{
-    padding:0;
+    padding:10px;
+    color:black;
 }
