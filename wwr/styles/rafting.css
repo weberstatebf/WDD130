@@ -1,0 +1,40 @@
+*{
+    font-size: medium;
+    font-family: oswald;
+    text-align: center;
+}
+
+
+h1,h2{
+    text-align: center;
+    float: inline-end;
+    position: absolute;
+}
+
+:root{
+    --primary-color: #272AD2;
+    --secondary-color: #414288;
+    --accent-color1:#682D63;
+    --accent-color2: #5FB49C;
+
+    --headings-font:"oswald",sans-serif;
+    --paragraph-font:"lexend",sans-serif;
+
+    --nav-background-color: #414288;
+    --nav-link-color:var(--accent-color2);
+    --nav-hover-link-color:var(--accent-color2);
+    --nav-hover-background-color:var(--accent-color1);
+}
+
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+p img{
+    float: right;
+}
+
+article{
+    position: absolute;
+}
