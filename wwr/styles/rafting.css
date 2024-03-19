@@ -31,10 +31,20 @@ h1,h2{
     width: 100%;
     height: auto;
 }
-p img{
-    float: right;
+
+.hero div{
+    position: relative;
 }
 
 article{
-    position: absolute;
+    position:absolute;
+}
+article img{
+    float:right;
+}
+
+
+img{
+    height:300px;
+    display: block;
 }
