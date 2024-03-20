@@ -9,8 +9,13 @@ h1,h2{
     text-align: center;
     float: inline-end;
     position: absolute;
+   
 }
-
+h1{
+    z-index: 4;
+    left: 440px;
+    font-size: xx-large;
+}
 :root{
     --primary-color: #272AD2;
     --secondary-color: #414288;
@@ -31,6 +36,7 @@ h1,h2{
     width: 100%;
     height: auto;
 }
+
 
 .hero div{
     position: relative;
