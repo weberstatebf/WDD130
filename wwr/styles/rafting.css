@@ -1,19 +1,48 @@
 *{
     font-size: medium;
     font-family: oswald;
+    
+    
+}
+
+
+header{
+    display: grid;
+    grid-template-columns: 120px 1fr 2fr;
+    align-items: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    grid-column: 3/5;
+    grid-row: 1/5;
+}
+
+nav li{
+    flex: 1 1 100%;
     text-align: center;
+
+}
+
+nav a{
+    display: block;
+    text-align: center;
+
 }
 
 
 h1,h2{
     text-align: center;
-    float: inline-end;
-    position: absolute;
+   
+    
    
 }
 h1{
+    position: absolute;
     z-index: 4;
-    left: 440px;
+    left: 740px;
     font-size: xx-large;
 }
 :root{
@@ -31,10 +60,12 @@ h1{
     --nav-hover-background-color:var(--accent-color1);
 }
 
-.hero img{
+.banner{
     display: block;
-    width: 100%;
+    width: 1550px;
     height: auto;
+    grid-column: 1/2;
+    grid-row: 1/3;
 }
 
 
@@ -42,15 +73,28 @@ h1{
     position: relative;
 }
 
-article{
-    position:absolute;
-}
-article img{
+
+ img p{
+    height:160px;
     float:right;
 }
 
 
 img{
-    height:300px;
+    width: 300px;
     display: block;
+}
+.team{
+    width: 550px;
+}
+
+footer{
+    display:flex;
+    align-content: end;
+    text-align: right;
+}
+
+footer img{
+    height:80px;
+    left:1560px;
 }
