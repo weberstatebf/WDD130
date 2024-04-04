@@ -57,3 +57,8 @@ iframe{
 fieldset{
     background: #b1b0b0;
 }
+img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

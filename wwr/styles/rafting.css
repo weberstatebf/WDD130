@@ -1,62 +1,67 @@
-*{
+:root {
+    --primary-color: #272AD2;
+    --secondary-color: #414288;
+    --accent-color1: #682D63;
+    --accent-color2: #5FB49C;
+
+    --headings-font: "oswald", sans-serif;
+    --paragraph-font: "lexend", sans-serif;
+
+    --nav-background-color: #414288;
+    --nav-link-color: var(--accent-color2);
+    --nav-hover-link-color: var(--accent-color2);
+    --nav-hover-background-color: var(--accent-color1);
+}
+
+
+
+
+* {
     font-size: medium;
     font-family: oswald;
 }
-header{
+
+header {
     display: grid;
-    grid-template-columns: 120px 1fr 2fr;
+    grid-template-columns: 120px auto;
     align-items: center;
+    padding: 20px;
+    background-color: var(--ascent1-color);
 }
-nav{
+
+nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
     list-style: none;
-    grid-column: 3/5;
-    grid-row: 1/5;
+    background-color: var(--nav-background-color);
 }
 
-nav li{
-    flex: 1 1 100%;
+nav a {
     text-align: center;
-
+    font-size: 1.2em;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1em;
 }
 
-nav a{
-    display: block;
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+h1,
+h2 {
     text-align: center;
+}
 
+header, main, footer {
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 
-h1,h2{
-    text-align: center;
-   
-    
-   
-}
-h1{
-    position: absolute;
-    z-index: 4;
-    left: 400px;
-    font-size: xx-large;
-}
-:root{
-    --primary-color: #272AD2;
-    --secondary-color: #414288;
-    --accent-color1:#682D63;
-    --accent-color2: #5FB49C;
-
-    --headings-font:"oswald",sans-serif;
-    --paragraph-font:"lexend",sans-serif;
-
-    --nav-background-color: #414288;
-    --nav-link-color:var(--accent-color2);
-    --nav-hover-link-color:var(--accent-color2);
-    --nav-hover-background-color:var(--accent-color1);
-}
-
-.banner{
+.banner {
     display: grid;
     width: 100%;
     height: auto;
@@ -65,33 +70,128 @@ h1{
 }
 
 
-.hero div{
+.hero {
     position: relative;
-    align-items: center;
+}
+
+.hero h1 {
+    position: absolute;
+    z-index: 4;
+    left: 400px;
+    font-size: xx-large;
+}
+.hero article {
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    right: 30px;
+    background-color: rgba(255, 255, 255, 0.377);
+    padding: 30px;
+}
+.hero article img {
+    width: 160px;
+    float: right;
+    margin: 0 0 10px 20px;
 }
 
 
- img p{
-    height:160px;
-    float:right;
+img {
+    width: 100%;
 }
 
-
-img{
-    width: 300px;
-    display: block;
-}
-.team{
+.team {
     width: 550px;
 }
 
-footer{
-    display:flex;
-    align-content: end;
-    text-align: right;
+footer {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    background-color: #3f3f3f;
+    color: #fff;
+    padding: 0 20px;
+}
+.sociallinks a {
+    color: #fff;
+}
+.sociallinks {
+    justify-self: end;
+    background-color: unset;
+}
+.sociallinks a:hover {
+    background-color: unset;
+}
+.sociallinks img {
+    width: 60px;
+
 }
 
-footer img{
-    height:80px;
-    
+
+body {
+    background-color: #55ffe5;
+    font-size: 14px;
+}
+
+h2 {
+    font-weight: 400;
+    font-family: (--headings-font);
+    font-size: x-large;
+    margin-bottom: 5px;
+    align-self: center;
+}
+
+h3 {
+    font-weight: 500;
+    font-family: (--headings-font);
+    margin-bottom: 25px;
+    align-self: center;
+}
+
+p {
+    margin-bottom: 15px;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-self: center;
+    display: flex;
+
+}
+
+input {
+    vertical-align: bottom;
+}
+
+iframe {
+    width: "600";
+    height: "450";
+    border: 0;
+}
+
+#us {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(228, 218, 218);
+    width: 100%;
+    padding: 2px;
+    margin: 2px;
+}
+
+#us h2 {
+    text-align: center;
+    font-size: xx-large;
+}
+
+fieldset {
+    background: #b1b0b0;
+}
+form {
+    max-width: 600px;
+}
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 10px 5px
+}
+.form-grid label {
+    justify-self: end;
 }
