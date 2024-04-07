@@ -1,10 +1,26 @@
+:root {
+    --primary-color: #272AD2;
+    --secondary-color: #414288;
+    --accent-color1: #682D63;
+    --accent-color2: #5FB49C;
+
+    --headings-font: "oswald", sans-serif;
+    --paragraph-font: "lexend", sans-serif;
+
+    --nav-background-color: #414288;
+    --nav-link-color: var(--accent-color2);
+    --nav-hover-link-color: var(--accent-color2);
+    --nav-hover-background-color: var(--accent-color1);
+}
+
+
 *{
     margin: 5px;
     padding: 5px;
 }
 
 body{
-    background-color: #55ffe5;
+    background-color:aquamarine;
     font-size: 14px;
 }
 
@@ -15,6 +31,7 @@ h2{
     margin-bottom: 5px;
     align-self: center;
 }
+
 h3{
     font-weight: 500;
     font-family: (--headings-font);
@@ -62,3 +79,29 @@ img{
     flex-direction: column;
     justify-content: center;
 }
+.team1,.team2,.team3,.bear_team{
+    width: 200px;
+    text-align: center;
+    border:2px solid #4b4b4b;
+    box-shadow: 5px black;
+    display: flex;
+    justify-content:space-between ;
+    display: grid;
+    grid-template-areas: 3/4;
+    padding: 15px;
+}
+
+.teams{
+    background-color: aqua;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    height:fit-content;
+}
+
+.teams2{
+    font-size: 60px;
+}
+

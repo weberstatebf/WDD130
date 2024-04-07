@@ -127,7 +127,7 @@ footer {
 
 
 body {
-    background-color: #55ffe5;
+    background-color:#55ffe5;
     font-size: 14px;
 }
 
@@ -195,3 +195,10 @@ form {
 .form-grid label {
     justify-self: end;
 }
+.ad{
+   width: 250px;
+   border: 2px black solid; 
+   box-shadow: 5px 5px grey inset;
+  
+}
+
