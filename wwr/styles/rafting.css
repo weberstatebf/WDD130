@@ -199,6 +199,9 @@ form {
    width: 250px;
    border: 2px black solid; 
    box-shadow: 5px 5px grey inset;
+   justify-content: space-around;
+   
+   
   
 }
 
