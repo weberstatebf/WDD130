@@ -1,3 +1,7 @@
+
+
+
+
 .trips{
     
     display: flex;
@@ -6,7 +10,6 @@
     flex-direction: row;
     background-color: bisque;
     text-align: center;
-   
 }
 
 
@@ -71,10 +74,12 @@ table{
     border: 2px solid black;
     font-family: 'Times New Roman', Times, serif;
     letter-spacing: .5px;
+    justify-self:center;
+    justify-items: center;
 }
 
 caption{
-    caption-side: top;
+    caption-side:bottom;
 }
  thead,tfoot,tr{
     background-color: blueviolet;
